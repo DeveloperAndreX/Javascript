@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script type="text/javascript">
+
+            function olaMundo(){
+                alert("Ola Mundo Javascript!");
+            }
+            
+
+        </script>
+        <title> javascript </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="">
+        <link rel="shortcut icon" type="image/x-icon" href="./Imagens/keyboard.png">
+    </head>
+    <body   onload="olaMundo()";>
+        <!-- Crio um evento onload chamando a function-->
+        
+         <script type="text/javascript">
+
+            /*criar uma variavel d que vai pegar a data do sistema:*/
+            var d = new Date();
+            var hora = d.getHours;
+            var minutos = d.getMinutes;
+            var miliseconds = d.getMilliseconds;
+
+            if(hora < 12 ){
+                document.write("Bom dia!!");
+                document.writeln("A Hora e Exatamente:" + " | " + hora+minutos+miliseconds);
+            }else if (hora >= 12 && hora < 18){
+                document.write("Boa tarde!!");
+                document.writeln("A hora da tarde e: " + " | " + hora+minutos+miliseconds);
+            }else{
+                document.writeln("Boa Noite!");
+                document.writeln("Agora e Noite são: " + " | " + hora+minutos+miliseconds);
+            }
+            
+         </script>
+       
+   </body>
+    <!-- <script src="./script.js"></script> -->
+</html>

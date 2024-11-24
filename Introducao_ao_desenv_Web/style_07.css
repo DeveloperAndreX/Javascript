@@ -1,0 +1,11 @@
+* {
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+}
+#title {
+    color:red;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}

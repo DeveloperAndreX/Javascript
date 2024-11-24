@@ -1,0 +1,11 @@
+/* Estilização do exemplo-06.html */
+#corpo {
+        background-color:whitesmoke;
+        margin: 0 auto;
+      }
+#result {
+        color:red;
+        font-family:'Courier New', Courier, cursive;
+        text-indent: 0%;
+
+       }

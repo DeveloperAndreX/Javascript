@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="shotcut icon" type="image/x-icon" href="./Imagens/js.png">
+        <link rel="stylesheet" type="text/css" href="./style_3.css">
+        <script type="text/javascript">
+            // criamos uma função:
+
+            function validaForm(){
+                d = document.formulario;
+                // validar nome
+                if(d.nome.value === "") {
+                    alert("O campo deve ser preenchido!");
+                    d.nome.style.backgroundColor = "red";
+                    d.nome.color = "#ffffff";
+                    d.nome.focus();
+                    return false;
+                }
+                // valida o E-mail:
+                if(d.email.value === "") {
+                    alert("O campo EMAIL deve ser preenchido");
+                    d.email.style.backgroundColor = "red";
+                    d.email.color = "#ffffff";
+                    d.email.focus();
+                    return false;
+
+                }
+                // Validar email (Verificação de endereço eletronico)
+                    parte1 = d.email.value.indexOf("0");
+                    parte3 = d.email.value.length;
+                    if (!(parte1 > 3 && parte3 >= 9)) {
+                        alert("O campo EMAIL deve conter");
+                        d.email.style.backgroundColor = "red";
+                        d.email.style.color = "#ffffff";
+                        d.email.focus();
+
+                        return false;
+                    }
+
+                    document.cadastro.submit();
+
+            }
+
+        </script>
+    </head>
+    <body>
+        <form action="" method="POST" name="formulario">
+            Nome: <input name="nome" type="text" id="nome"><br>
+            E-Mail:<input name="Email" type="text" id="email"><br>
+            Sexo: <select>
+                    <option value="Masculino">MASCULINO</option>
+                    <option value="Feminino">FEMININO</option>
+                  </select>
+                  <input type="button" name="button" id="button"
+                          onclick="return validaForm()" value="OK" />
+        </form>
+    </body>    
+</html>

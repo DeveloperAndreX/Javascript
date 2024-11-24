@@ -1,0 +1,25 @@
+/*Estilizando o Index HTML*/
+
+/*Definindo um seletor no começo, qual e o tipo de elemento
+  Depois vamos colocar o valor da propriedade;
+*/
+/*seletor{propriedade: valor}*/
+
+#p {
+  
+  font-family: cursive;
+  color:blueviolet
+}
+
+/*trabalhando com classes e Ids:*/
+
+p.direita{text-align:right}
+p.esquerda{text-align:left}
+p.centro{text-align:center}
+
+/**/
+.centro{text-align: center}
+
+.position_table{width:100%; text-align:center;}
+
+
