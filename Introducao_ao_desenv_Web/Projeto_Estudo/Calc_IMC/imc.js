@@ -8,6 +8,4 @@ const calcular = document.getElementById("calcular");
 const resultado = document.getElementById("resultado");
 
 // o ponto serve para acessarmos uma propriedade dele;
-nome.value = "Andre Panizza dos santos";
-altura.valie = "50";
-peso.value = 200;
+/** No botão calcular */
