@@ -11,11 +11,11 @@ var itens = lista.children;
 var novoItem = document.createElement("li");
 novoItem.textContent = "suco de laranja";
 
-//Para trabalhar com InsertBefore, selecionamos o elemento PAI
+//Para trabalhar com InsertBefore, selecionamos o elemento PAI:
 // Passamos 02 parametros no InsertBefore("O novo item, e o novo item que vai entrar antes na lista");
 
 lista.insertBefore(novoItem, itens[0]); // vai inserir o suco de laranja antes do cafe;
-
+lista.insertBefore(novoItem, itens[2]);
 
 console.log(lista);
 // vamos especificar o indice da lista que queremos:
