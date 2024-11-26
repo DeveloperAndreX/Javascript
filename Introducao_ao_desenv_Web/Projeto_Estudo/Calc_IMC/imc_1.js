@@ -9,17 +9,17 @@ peso.value = "1.57";
 const resultado = document.getElementById("resultado");
 
 calcular.addEventListener('click', buttons);
-function buttons(){
-/** Movendo as minhas variaveis globais para  dentro da function buttons */
-const nome = document.getElementById("nome");
-const altura = document.getElementById("altura");
-const peso = document.getElementById("peso");
-const calcular = document.getElementById("calcular");
+function buttons() {
+    /** Movendo as minhas variaveis globais para  dentro da function buttons */
+    const nome = document.getElementById("nome");
+    const altura = document.getElementById("altura");
+    const peso = document.getElementById("peso");
+    const calcular = document.getElementById("calcular");
 
-if(nome !== ''){
-    alert("este campo esta vazio");
-    
-}
+    if (nome !== '') {
+        alert("este campo esta vazio");
+
+    }
 
 }
 
