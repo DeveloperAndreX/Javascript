@@ -16,10 +16,45 @@ function buttons() {
     const peso = document.getElementById("peso");
     const calcular = document.getElementById("calcular");
 
-    if (nome !== '') {
-        alert("este campo esta vazio");
+    if (nome.value !== '' && peso.value !== '' && altura.value !== '') {
+        
+        
+
+
+        nome.style.background = 'green';
+        nome.style.fontFamily = 'vardana';
+        nome.style.font = 10;
+        nome.focus();
+        return false;
+        //////////////////////////////
+        peso.style.background = 'green';
+        peso.style.fontFamily = 'vardana';
+        peso.style.font = 10;
+        peso.focus();
+        return false;
+        /////////////////////////////
+        altura.style.background = 'green';
+        altura.style.fontFamily = 'vardana';
+        altura.style.font = 10;
+        altura.focus();
+        return false;
+                       
+                  
+    }else{
+        /** textContent pega o conteudo dentro da DIV */
+        resultado.textContent = 'Preencha todos os campos';
+        nome.style.background = 'red';
+        nome.style.fontFamily = 'vardana';
+        nome.style.font = 12;
+        nome.focus();
+
+     
+
+        
+       
 
     }
+
 
 }
 
