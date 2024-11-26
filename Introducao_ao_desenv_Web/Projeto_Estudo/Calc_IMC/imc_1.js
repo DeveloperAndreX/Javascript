@@ -18,8 +18,9 @@ function buttons() {
 
     if (nome.value !== '' && peso.value !== '' && altura.value !== '') {
         
-        
-
+        var calc = (peso.value / altura.value * 2);
+        var results = (peso.value / calc);
+        resultado.textContent = results;
 
         nome.style.background = 'green';
         nome.style.fontFamily = 'vardana';
@@ -38,19 +39,13 @@ function buttons() {
         altura.style.font = 10;
         altura.focus();
         return false;
-                       
+                     
                   
     }else{
         /** textContent pega o conteudo dentro da DIV */
         resultado.textContent = 'Preencha todos os campos';
-        nome.style.background = 'red';
-        nome.style.fontFamily = 'vardana';
-        nome.style.font = 12;
-        nome.focus();
+        resultado.style.fontFamily = 'sans-serif';
 
-     
-
-        
        
 
     }
