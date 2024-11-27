@@ -19,27 +19,46 @@ function buttons() {
     if (nome.value !== '' && peso.value !== '' && altura.value !== '') {
         
         var calc = (peso.value / altura.value * 2);
-        var results = (peso.value / calc);
-        resultado.textContent = results;
+        var valorIMC = (peso.value / calc).toFixed(2);
+        resultado.textContent = valorIMC;
+
+        let classificaçao = "";
+
+        if(results < 18.5){
+            classificaçao = "Abaixo do Peso";
+
+        }else if(valorIMC < 25) {
+            classificaçao = "Esta com o Peso Ideal. Parabens";
+
+        }else if(valorIMC < 30){
+            classificaçao = "E você esta levemente acima do peso";
+        }else if(valorIMC < 35){
+            classificaçao = "Você esta com Obsidade grau 1";
+        }else if(valorIMC < 40){
+            classificaçao = "Voce esta com Obsidade grau 2";
+        }else{
+            classificaçao = "Voce esta com Obsidade grau 3, com Obsidade Morbida";
+        }
+
+        resultado.textContent =  `${nome} seu IMC e: ${valorIMC} e você esta ${classificaçao}`;
 
         nome.style.background = 'green';
         nome.style.fontFamily = 'vardana';
         nome.style.font = 10;
         nome.focus();
-        return false;
+      
         //////////////////////////////
         peso.style.background = 'green';
         peso.style.fontFamily = 'vardana';
         peso.style.font = 10;
         peso.focus();
-        return false;
+      
         /////////////////////////////
         altura.style.background = 'green';
         altura.style.fontFamily = 'vardana';
         altura.style.font = 10;
         altura.focus();
-        return false;
-                     
+                             
                   
     }else{
         /** textContent pega o conteudo dentro da DIV */
