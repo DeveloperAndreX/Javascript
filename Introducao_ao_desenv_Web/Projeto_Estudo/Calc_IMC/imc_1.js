@@ -21,7 +21,7 @@ function buttons() {
         var calc = (peso.value / altura.value * 2);
         var valorIMC = (peso.value / calc).toFixed(2);
         resultado.textContent = valorIMC;
-        // verificar
+        // verificar porque não 
         let classificaçao = "";
 
         if(results < 18.5){
