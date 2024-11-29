@@ -21,7 +21,7 @@ function buttons() {
         var calc = (peso.value / altura.value * 2);
         var valorIMC = (peso.value / calc).toFixed(2);
         resultado.textContent = valorIMC;
-        // verificar porque não 
+        // verificar porque não esta saindo a saida do valor no IMC
         let classificaçao = "";
 
         if(results < 18.5){
