@@ -4,6 +4,8 @@ o ponto serve para acessarmos uma propriedade dele
 nome.value = "preenchendo o nome";
 altura.value = 10;
 peso.value = "1.57";
+
+
 */
 
 const resultado = document.getElementById("resultado");
@@ -21,10 +23,9 @@ function buttons() {
         var calc = (peso.value / altura.value * 2);
         var valorIMC = (peso.value / calc).toFixed(2);
         resultado.textContent = valorIMC;
-        // verificar porque não esta saindo a saida do valor no IMC:
-        // Verificar a variavel let classificação
+        
         let classificaçao = "";
-        // realizar o exemplo com laço while
+       
         if(results < 18.5){
             classificaçao = "Abaixo do Peso";
 
