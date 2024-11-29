@@ -24,7 +24,7 @@ function buttons() {
         // verificar porque não esta saindo a saida do valor no IMC:
         // Verificar a variavel let classificação
         let classificaçao = "";
-
+        // realizar o exemplo com laço while
         if(results < 18.5){
             classificaçao = "Abaixo do Peso";
 
