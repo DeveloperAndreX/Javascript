@@ -5,7 +5,7 @@ nome.value = "preenchendo o nome";
 altura.value = 10;
 peso.value = "1.57";
 
-
+// trocar o IF pelo exemplo do switch:
 const expr = 'Papayas';
 switch (expr) {
   case 'Oranges':
