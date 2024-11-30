@@ -9,11 +9,17 @@ const lamp = document.getElementById('lamp');
 
 function lampOn(){
 // fazer a troca da imagem da lampada:
-lamp.src = './img/ligada.jpg';
+    lamp.src = './img/ligada.jpg';
 }
 function lampOff(){
-lamp.src = './img/deslig.jpg';
+    lamp.src = './img/deslig.jpg';
+}
+function lampBroken(){
+    lamp.src = './img/quebrada.jpg';
 }
 // adicionando um evento ao botão turnOn
 turnOn.addEventListener('click', lampOn );
 turnOff.addEventListener('click',lampOff);
+lamp.addEventListener('mouseover', lampOn);
+lamp.addEventListener('mouseleave', lampOff);
+lampOff.addEventListener('dblclick', lampBroken);
