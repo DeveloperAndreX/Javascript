@@ -38,9 +38,9 @@ function buttons() {
         var valorIMC = (peso.value / calc).toFixed(2);
         resultado.textContent = valorIMC;
         
-        let classificaçao = "";
-       
-        if(results < 18.5){
+        let classificaçao = '';
+        
+        if(valorIMC < 18.5){
             classificaçao = "Abaixo do Peso";
 
         }else if(valorIMC < 25) {
@@ -74,8 +74,7 @@ function buttons() {
         altura.style.fontFamily = 'vardana';
         altura.style.font = 10;
         altura.focus();
-                             
-                  
+                    
     }else{
         /** textContent pega o conteudo dentro da DIV */
         resultado.textContent = 'Preencha todos os campos';
