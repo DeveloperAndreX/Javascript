@@ -79,11 +79,6 @@ function buttons() {
         /** textContent pega o conteudo dentro da DIV */
         resultado.textContent = 'Preencha todos os campos';
         resultado.style.fontFamily = 'sans-serif';
-
-       
-
     }
 
-
 }
-
