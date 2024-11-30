@@ -5,14 +5,27 @@ const turnOn = document.getElementById('turnOn');
 const turnOff = document.getElementById('turnOff');
 const lamp = document.getElementById('lamp');
 
+// criaremos uma função pra verificar se a lampada esta quebrada ou não:
+function isLampBroken(){
+    /* Nota: indexof e um metodo que procura uma string dentro string, faz uma varedura procurando
+     outro trecho de string */
+    return lamp.src.indexOf('quebrada') > -1 // quando ele acha traz um numero maior que -1
+
+}
+
 // criando a function lampOn:
 
 function lampOn(){
 // fazer a troca da imagem da lampada:
+
+if(!isLampBroken ()) {
     lamp.src = './img/ligada.jpeg';
+    }
 }
 function lampOff(){
+    if (!isLampBroken ()) {
     lamp.src = './img/deslig.jpeg';
+    }
 }
 function lampBroken(){
     lamp.src = './img/quebrada.jpeg';
