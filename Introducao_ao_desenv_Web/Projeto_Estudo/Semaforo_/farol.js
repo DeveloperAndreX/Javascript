@@ -19,9 +19,9 @@ const trafficLight = (event) => {
 
 // Vamos criar um objeto literal chamado TurnOn para armazenar as funções:
 const turnOn = {
-    'red':       () => img.src = "./vermelho.jpg",
-    'yellow':    () => img.src = "./amarelo.jpg",
-    'green':     () => img.src = "./verde.jpg"
+    'red':       () => img.src = "./img/vermelho.jpg",
+    'yellow':    () => img.src = "./img/amarelo.jpg",
+    'green':     () => img.src = "./img/verde.jpg"
     
 };
 
