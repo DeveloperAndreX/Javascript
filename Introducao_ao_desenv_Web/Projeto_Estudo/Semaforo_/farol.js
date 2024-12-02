@@ -1,5 +1,5 @@
 // codigo javascript para o Semaforo funcionar;
-let color_index = 0;
+let colorIndex = 0;
 const img = document.getElementById('img');
 const buttons = document.getElementById('buttons');
 console.log(alert ("teste de Javascript!"));
@@ -21,19 +21,20 @@ posso utilizar o setinterval (vou executar essa função changeColor,
  a cada 1000 segundos e executar ela) */
 const nextIndex = () => {
 /* Ele ira terque verificar se ele e 02 vamos fazer uma validação basica: */
+
 // posso usar um ternario assim = color_index = color_index < 2 ? color_index++ ;0
 
-    if (color_index < 2) {
-        color_index++
+    if (colorIndex < 2) {
+        ++colorIndex
     }else{
-        color_index = 0;
+        colorIndex = 0;
     }
 }
 
 const changecolor = () => {
     // o que ela vai fazer:
-    const array_cores = ['red','yellow','green'];
-    const color = array_cores[color_index];
+    const colors = ['red','yellow','green'];
+    const color = colors[colorIndex];
     turnOn[color]();
     nextIndex();
 } 
