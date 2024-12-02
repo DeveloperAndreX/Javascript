@@ -1,5 +1,6 @@
 // codigo javascript para o Semaforo funcionar;
 let colorIndex = 0;
+let intervalId = null;
 const img = document.getElementById('img');
 const buttons = document.getElementById('buttons');
 console.log(alert ("teste de Javascript!"));
@@ -15,6 +16,7 @@ const trafficLight = ( event ) => {
    //console.log( event.target.id );
    /* Como chamo um metodo de um objeto: */
    turnOn[event.target.id]();
+   stopAutomatic();
 }
 /* posso utilizar o settimeout, me da um callback pra executar (ChangeColor(), de quanto em quanto tempo),
 posso utilizar o setinterval (vou executar essa função changeColor,
@@ -39,12 +41,19 @@ const changecolor = () => {
     nextIndex();
 } 
 
+// vamos criar uma função para o stopAutomatic para parar;
+const stopAutomatic = () => {
+    /*setInterval Ele retorna um ID, esse ID ele deve ser global, pois irá interagir com varias funções */
+    clearInterval(intervalId);
+    // ele vai parar o processo quando alguem clicar no botão;
+
+}
+
 // Vamos criar um objeto literal chamado TurnOn para armazenar as funções:
 const turnOn = {
     'red':       () => img.src = './img/vermelho.png',
     'yellow':    () => img.src = './img/amarelo.png',
     'green':     () => img.src = './img/verde.png',
-    'automatic': () => setInterval(changecolor(), 1000)
+    'automatic': () => intervalId = setInterval(changecolor(), 1000)
 };
-
 buttons.addEventListener('click',trafficLight);
