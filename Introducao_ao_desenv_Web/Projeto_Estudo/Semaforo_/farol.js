@@ -19,10 +19,10 @@ const trafficLight = (event) => {
 
 // Vamos criar um objeto literal chamado TurnOn para armazenar as funções:
 const turnOn = {
-    'red':       () => img.src = "vermelho.png",
-    'yellow':    () => img.src = "amarelo.png",
-    'green':     () => img.src = "verde.png",
-    'automatic': () => img.src = "automatic.png"
+    'red':       () => img.src = "./img/vermelho.png",
+    'yellow':    () => img.src = "./img/amarelo.png",
+    'green':     () => img.src = "./img/verde.png",
+    'automatic': () => img.src = "./img/automatic.png"
 };
 
 buttons.addEventListener('click', trafficLight);
