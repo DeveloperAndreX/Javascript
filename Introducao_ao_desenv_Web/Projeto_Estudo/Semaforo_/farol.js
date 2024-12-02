@@ -3,7 +3,7 @@ let colorIndex = 0;
 let intervalId = null;
 const img = document.getElementById('img');
 const buttons = document.getElementById('buttons');
-console.log(alert ("teste de Javascript!"));
+
 
 // criando uma arrow function da função trafficLight:
 // arrow function se declara assim () => {}
