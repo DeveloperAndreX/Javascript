@@ -12,6 +12,7 @@ então e importante verificar o que eu estou recebendo ! */
 const trafficLight = ( event) => {
     console.log( event );
     
+
 }
 
 buttons.addEventListener('click', trafficLight);
