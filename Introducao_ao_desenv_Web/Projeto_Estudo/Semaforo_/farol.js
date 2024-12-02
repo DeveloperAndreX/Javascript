@@ -12,15 +12,17 @@ Desta forma ele traz o id do target no evento, note que o botão traz a cor do I
 */
 
 const trafficLight = (event) => {
-    console.log( event.target.id );
-    
+   // console.log( event.target.id );
+   /* Como chamo um metodo de um objeto: */
+   turnOn[event.target.id]();
 }
 
 // Vamos criar um objeto literal chamado TurnOn para armazenar as funções:
 const turnOn = {
-    'red': () => img.src = "vermelho",
-    'yellow': () => img.src = "amarelo",
-    'green': () => img.src = "verde"
+    'red':       () => img.src = "vermelho.png",
+    'yellow':    () => img.src = "amarelo.png",
+    'green':     () => img.src = "verde.png",
+    'automatic': () => img.src = "automatic.png"
 };
 
 buttons.addEventListener('click', trafficLight);
