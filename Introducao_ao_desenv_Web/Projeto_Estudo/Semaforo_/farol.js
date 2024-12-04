@@ -49,6 +49,8 @@ const stopAutomatic = () => {
 
 }
 
+
+
 // Vamos criar um objeto literal chamado TurnOn para armazenar as funções:
 const turnOn = {
     'red':       () => img.src = './img/vermelho.png',
