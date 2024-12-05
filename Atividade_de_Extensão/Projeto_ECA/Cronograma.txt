@@ -1,0 +1,33 @@
+Atividade	Carga Horária
+
+1 - Etapa obrigatória - Realizar a leitura do projeto. - Selecionar a instituição concedente para a realização do projeto. - Contatar com a instituição, conversa com responsáveis pelo local para identificar e conhecer os estudantes que necessitam de reforço e quais suas dificuldades. - Realizar registro fotográfico.	2
+2 - Pesquisa e Levantamento de Informações - Introdução. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+3 - Pesquisa e Levantamento de Informações - Desenvolvimento. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+4 - Pesquisa e Levantamento de Informações - Conclusão.	5
+5 - Prototipação de Baixa Fidelidade - Introdução. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+6 - Prototipação de Baixa Fidelidade - Desenvolvimento.	5
+7 - Prototipação de Baixa Fidelidade - Revisão. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+8 - Especificação de Requisitos - Levantamento. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+9 - Especificação de Requisitos - Revisão. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+10 - Especificação de Requisitos - Documentação.	5
+11 - Prototipação de Alta Fidelidade - Criação.	5
+12 - Prototipação de Alta Fidelidade - Revisão.	5
+13 - Prototipação de Alta Fidelidade - Validação. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+14 - Implementação da Solução - Criação do ambiente.	5
+15 - Implementação da Solução - Início do projeto.	5
+16 - Implementação da Solução - Desenvolvimento da Interface.	5
+17 - Implementação da Solução - Refinamento da Interface. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+18 - Implementação da Solução - Desenvolvimento do conteúdo.	5
+19 - Implementação da Solução - Refinamento do conteúdo. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+20 - Implementação da Solução - Ajustes UI.	5
+21 - Implementação da Solução - Ajustes UX.	5
+22 - Implementação da Solução - Validação. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+23 - Verificação e Validação - Avaliar as funcionalidades. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+24 - Verificação e Validação - Validar as funcionalidades. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+25 - Verificação e Validação - Revisar as alterações necessárias. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+26 - Ajustes Finais e Entrega - Novos Testes.	5
+27 - Ajustes Finais e Entrega - Verificação pós ajustes. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+28 - Ajustes Finais e Entrega - Validação pós ajustes. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	5
+29 - Escrita do Relatório - Desenvolvimento.	8
+30 - Escrita do Relatório - Apresentação. Obs: Etapa a ser realizada junto à comunidade ou instituição escolhida, de forma presencial.	2
+31 - Etapa obrigatória: - Preenchimento da ficha de frequência. - Organização dos registros fotográficos e demais evidências (relatório). - Preenchimento da comprovação via Ambiente Virtual de aprendizagem. - Preenchimento da autoavaliação. - Envio de link para a avaliação da comunidade.

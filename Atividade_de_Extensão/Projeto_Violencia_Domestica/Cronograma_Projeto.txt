@@ -1,0 +1,40 @@
+Cronograma:
+
+1 - Etapa Obrigatoria:
+
+Realizar a Leitura do projeto - Selecionar a instituição concedente para realização do projeto -
+Contatar com a instituição, conversa com responsaveis pelo local para identificar e conhecer os
+estudantes que necessitam de reforço e quais  suas dificuldades - REALIZAR REGISTRO FOTOGRAFICO
+
+2 - Pesquisa e levantamento de informações - Introdução OBS: Etapa a ser realizada junto a comunidade
+ou instituição escolhida, de forma presencil.
+
+3 -  Realizar a leitura do projeto. - Selecionar a instituição concedente para a realização do projeto.
+  - Contatar com a instituição, conversa com responsáveis pelo local para identificar e 
+ conhecer os estudantes que necessitam de reforço e quais suas dificuldades. - Realizar registro fotográfico.
+
+4 - Pesquisa e Levantamento de Informações - Conclusão.
+
+5 - Prototipação de Baixa Fidelidade - Introdução. Obs: Etapa a ser realizada junto
+ à comunidade ou instituição escolhida, de forma presencial.
+
+6 - Prototipação de Baixa Fidelidade - Desenvolvimento.
+
+7 - Prototipação de Baixa Fidelidade - Revisão. Obs: Etapa a ser realizada junto a comunidade ou a 
+instituição escolhida, de forma presencial
+
+8 - Especificação de Requisitos - Levantamento. Obs: Etapa a ser realizada junto à comunidade ou 
+instituição escolhida de forma presencial
+
+9 - Especificação de requisitos - Revisão das Etapas a ser realizada junto a comunidade ou instituição
+escolhida, de forma presencial.
+
+10 - Especificação de Requisitos - Documentação.
+
+11 - Prototipação de Alta Fidelidade - Criação.
+
+12 - Prototipação de Alta Fidelidade - Revisão.
+
+13 - Prototipação de Alta Fidelidade - Validação. Obs: Etapa a ser realizada junto à comunidade ou 
+instituição, de forma presencial.
+
