@@ -38,3 +38,53 @@ escolhida, de forma presencial.
 13 - Prototipação de Alta Fidelidade - Validação. Obs: Etapa a ser realizada junto à comunidade ou 
 instituição, de forma presencial.
 
+14 - Implementação da Solução - Criação do ambiente.
+
+15 - Implementação da Solução - Início do projeto.
+
+16 - Implementação da Solução - Desenvolvimento da Interface. (Javascript, PHP, HTML 5. CSS ) etc..
+
+17 - Implementação da Solução - Refinamento da Interface. Obs: Etapa a ser realizada junto à comunidade
+escolhida, de forma pressencial.
+
+18 - Implementação da Solução - Desenvolvimento do conteúdo. (codigo)
+
+19 - Implementação da Solução - Refinamento do conteúdo. Obs: Etapa a ser realizada junto à comunidade
+ou a instituição, de forma presencial.
+
+20 - Implementação da Solução - Ajustes UI.
+
+21 - Implementação da Solução - Ajustes UX.
+
+22 - Implementação da Solução - Validação. Obs: Etapa a ser realizada junto à comunidade ou instituição
+escolhida, de forma presencial.
+
+23 - Verificação e Validação - Avaliar as funcionalidades. Obs: Etapa a ser realizada junto à comunidade
+ou instituição escolhida, de forma presencial.
+
+24 - Verificação e Validação - Validar as funcionalidades. Obs: Etapa a ser realizada junto à comunidade
+ou nstituição escolhida, de forma presencial.
+
+25 - Verificação e Validação - Revisar as alterações necessárias. Obs: Etapa a ser realizada
+ junto à comunidade ou instituição escolhida, de forma presencial.
+
+26 - Ajustes Finais e Entrega - Novos Testes.
+
+27 - Ajustes Finais e Entrega - Verificação pós ajustes. Obs: Etapa a ser realizada junto
+à comunidade ou instituição escolhida, de forma presencial.
+
+28 - Ajustes Finais e Entrega - Validação pós ajustes. Obs: Etapa a ser realizada junto à comunidade
+ ou instituição escolhida, de forma presencial.
+
+29 - Escrita do Relatório - Desenvolvimento.
+
+30 - Escrita do Relatório - Apresentação. Obs: Etapa a ser realizada junto à comunidade
+ ou instituição escolhida, de forma presencial.
+
+31 - Etapa obrigatória: - Preenchimento da ficha de frequência.
+- Organização dos registros fotográficos e demais evidências (relatório).
+- Preenchimento da comprovação via Ambiente Virtual de aprendizagem. -
+ Preenchimento da autoavaliação. - Envio de link para a avaliação da comunidade.
+
+ Carga Horaria Total: 149 Horas;
+ 
