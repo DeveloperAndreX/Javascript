@@ -4,6 +4,7 @@ $frutas = array('melancia','banana','abacaxi');
 $frutas2 = ['morango','banana','uva'];
 (string)$texto = "eu sou um texto";
 array_push($frutas, $coco);
+// este e meu exemplo de codigo em PHP
 
 
 echo "tipo de dado: </br>" . gettype($frutas) . "</br> e: " . gettype($frutas2).PHP_EOL;
